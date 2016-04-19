@@ -1,0 +1,256 @@
+body{
+    background-color: #fe7701;
+    height: 1340px;
+    max-width: 1260px;
+    margin: auto;
+}
+td{
+  padding: 0px;
+}
+tr{
+  padding: 0px;
+}
+/**150px*/
+.main{
+  margin: 0 150px;
+}
+/*logo + FB + Google + twitter*/
+header{
+    display: inline;
+}
+
+#logo{
+  margin:30px 0px 18px 175px;
+}
+/* FB & Google & twitter*/
+header.head div{
+  margin:30px 284px 25px 491px;
+  display: inline;
+}
+/* FB or Google or twitter*/
+header.head div img{
+  margin:0 0px 10px 0px;
+  display: inline;
+}
+/*換頁連結集合*/
+nav div {
+  box-sizing: border-box;
+  height: 50px;
+  width: 960px;
+  margin: 0px 0px 19px 0px;
+
+}
+/*換頁連結*/
+nav div a{
+  text-decoration: none;;
+  box-sizing: border-box;
+  color: #fe7701;
+  float: left;
+}
+/*中間大圖*/
+aside{
+  height: 500px;
+  width: 960px;
+  margin: 0px 0px 20px 0px;
+}
+/*內文*/
+article div.up-1{
+    margin: 0px 0px 0px 0px;
+}
+/*內文下半部*/
+.down{
+  margin-bottom: 20px;
+  float: left;
+}
+/*元件屬性~~~*/
+/*標題*/
+.title{
+  font-size: 14px;
+  font-family: Arial;
+  color: #fe7701;
+  float: left;
+  padding: 16px 0px 16px 30px;
+}
+/*內容*/
+.detail{
+    font-family: Arial;
+    font-size: 12px;
+    color: #404040;
+
+}
+/*內文上半部-1*/
+div.up{
+  float: left;
+}
+div.up-1 strong{
+  box-sizing: border-box;
+  width: 300px;
+  height: 50px;
+  float: left;
+  margin-right: 30px;
+}
+div.up-1 strong.last{
+  margin-right:0px;
+}
+
+div.up1_left{
+  margin: 15px 0px 0px 51px;
+  float: left;
+}
+
+div.up1_left img{
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  float: left;
+  clear: both;
+}
+
+div.up1_left div {
+    float: left;
+    padding: 8px 0px 8px 15px;
+    width: 199px;
+    height: 30px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+div.up1_Mid{
+  float: left;
+  margin-bottom: 60px;
+  margin-left: 30px;
+  margin-top: 20px;
+  margin-right: 30px;
+}
+div.up1_Mid img{
+  margin-right: 15px;
+  margin-bottom: 10px;
+  float: left;
+}
+div.up1_Mid img.last{
+  margin-right: 0px;
+}
+div.up1_right{
+  float: left;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  padding: 13px 22px 0px 15px;
+  width: 300px;
+  height: 136px;
+  box-sizing: border-box;
+}
+div.up1_right div.detail{
+  display: inline;
+}
+div.down strong.T1{
+  float: left;
+  width: 630px;
+  height: 50px;
+  margin-right: 30px;
+  box-sizing: border-box;
+}
+
+div.down strong.T2{
+  float: left;
+  width: 300px;
+  height: 50px;
+  box-sizing: border-box;
+}
+div.down_left{
+  margin-bottom: 20px;
+  margin-right: 30px;
+  float: left;
+}
+div.down_left div.content{
+  width: 630px;
+  height: 80px;
+  background-color: white;
+  margin-bottom:  10px;
+}
+div.down_left img{
+  float: left;
+  margin: 10px 0px 0px 10px;
+}
+
+.flower_photography_title{
+  font-family: Arial;
+  font-size: 16px;
+  color: #404040;
+  margin-bottom: 8px;
+}
+.flower_photography_information{
+  font-family: Arial;
+  font-size: 10px;
+  font-style: italic;
+  color: #a54e03;
+}
+div.down_left div.flower_photography{
+  float: left;
+  margin: 14px 0px 25px 10px;
+}
+
+div.down_right{
+  width: 300px;
+  height: 260px;
+  float: left;
+  padding-left: 15px;
+  box-sizing: border-box;
+}
+div.down_right div.aline{
+  float:left;
+  margin-top:14px ;
+}
+.link{
+  font-family: Arial;
+  font-style: italic;
+  font-size: 11px;
+  color: #a54e03;
+  float: left;
+}
+span.atText{
+	float:none;
+}
+.atText{
+  font-family: Arial;
+  font-size: 14px;
+  color: #a54e03;
+  float: left;
+}
+.line {
+    width: 270px;
+    height: 1px;
+    background-color: #a54e03;
+    float: left;
+}
+.text{
+  font-family: Arial;
+  font-size: 14px;
+  color: #404040;
+
+}
+/*頁尾*/
+footer div.title{
+  width: 1260px;
+  height: 50px;
+  padding: 16px 0px 16px 180px;
+  box-sizing: border-box;
+  float: left;
+  position: relative;
+  background-color: #404040;
+}
+/*頁尾 右*/
+footer div strong.right{
+  position:absolute; right:295px;
+}
+/*BOx*/
+.box{
+  border-radius: 3px;
+  background-color: white;
+  box-shadow: -5px 5px 0px 0px rgba(165,77,5,0.5);
+}
+br{
+  margin: 0px;
+  padding: 0px;
+  height: 0px;
+  width: 0px;
+}
